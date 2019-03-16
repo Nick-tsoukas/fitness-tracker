@@ -1,0 +1,36 @@
+mat-form-field {
+    width:250px;
+}
+
+mat-card {
+    width: 500px;
+    height: 500px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/05.jpg');
+    background-size: cover;
+}
+
+
+.full_parent_height {
+    height: 100%;
+}
+
+.add_margin_top {
+    position: relative;
+    top: 3em;
+}
+
+@media screen and (max-width: 600px) {
+    mat-card {
+      height: 100%;
+      width: 100%;
+    }
+
+  }
