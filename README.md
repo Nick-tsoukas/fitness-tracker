@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Sign Up Page 
 
-![Alt text](./src/app/assets/screen_fitness?raw=true "Title")
+![Alt text](screen_fitness.png?raw=true "Title")
 
 
 ## Development server
