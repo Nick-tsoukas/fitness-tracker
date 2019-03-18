@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-welcome',
@@ -13,7 +12,4 @@ export class WelcomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSubmit(form: NgForm) {
-    console.log(form.value.email, form.value.password, form.value.agree, form.value.birthday)
-  }
 }
