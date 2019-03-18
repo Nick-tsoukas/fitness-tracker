@@ -7,6 +7,11 @@ import { MatNativeDateModule } from '@angular/material';
 import { MatSidenavModule } from '@angular/material';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatSelectModule, MatSelect } from '@angular/material/select';
+
+
+
 
 
 
@@ -26,7 +31,9 @@ import { MatListModule } from '@angular/material/list';
         MatNativeDateModule,
         MatSidenavModule,
         MatToolbarModule,
-        MatListModule
+        MatListModule,
+        MatTabsModule,
+        MatSelectModule
     ],
     exports: [
         MatButtonModule,
@@ -39,7 +46,9 @@ import { MatListModule } from '@angular/material/list';
         MatNativeDateModule,
         MatSidenavModule,
         MatToolbarModule,
-        MatListModule
+        MatListModule,
+        MatTabsModule,
+        MatSelectModule
     ]
 })
 export class MaterialModule {

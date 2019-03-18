@@ -11,3 +11,7 @@ html, body {
     margin: 0;
 }
 
+.mat-tab-body-wrapper {
+    height: 100%;
+    padding-top: 5em;
+}
