@@ -14,6 +14,6 @@ export class WelcomeComponent implements OnInit {
   }
 
   onSubmit(form: NgForm) {
-    console.log(form.value.email, form.value.password)
+    console.log(form.value.email, form.value.password, form.value.agree, form.value.birthday)
   }
 }
